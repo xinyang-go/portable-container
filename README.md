@@ -71,3 +71,5 @@ chroot $dir/rootfs /app/app.sh $@
 使用unshare实现挂载点隔离。
 
 使用chroot实现文件系统隔离。
+
+使用类似自解压程序的方式，将squashfs文件和运行脚本合并为一个可执行文件。
