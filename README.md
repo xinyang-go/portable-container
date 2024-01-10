@@ -24,6 +24,12 @@
 
 从tar文件构建
 
+```
+./deploy-sqfs.sh EXE SQFS APP [USER]
+```
+
+从squashfs文件构建
+
 ```bash
 EXE: 生成的可执行文件名
 APP: 容器内的入口程序
