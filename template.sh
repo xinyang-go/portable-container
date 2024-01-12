@@ -103,8 +103,7 @@ do
       break
       ;;
     *)
-      echo "Internal error!"
-      exit 1
+      error "Internal error!"
       ;;
   esac
 done
